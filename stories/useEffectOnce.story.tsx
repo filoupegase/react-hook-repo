@@ -17,7 +17,7 @@ const Demo = () => {
     return (
         <div>
             <p>Open your console</p>
-            <button onClick={ () => setData(Date.now()) }>Update data</button>
+            <button onClick={ () => setData(Date.now()) }>Click for update data</button>
         </div>
     );
 };
