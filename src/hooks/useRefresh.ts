@@ -5,7 +5,7 @@ import { useState, useCallback } from "react";
  *
  * @name useRefresh
  *
- * To force a re-rendering of the component...
+ * To force a re-rendering of the component.
  *
  * @author filoupegase
  *
