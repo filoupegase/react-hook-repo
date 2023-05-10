@@ -7,8 +7,6 @@ import { useEffect, useState } from "react";
  *
  * Ensures that the component has been mounted.
  *
- * @author filoupegase
- *
  */
 const useHasMounted = (): boolean => {
     const [hasMounted, setHasMounted] = useState(false);

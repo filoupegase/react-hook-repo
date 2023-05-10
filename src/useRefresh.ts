@@ -7,8 +7,6 @@ import { useState, useCallback } from "react";
  *
  * To force a re-rendering of the component.
  *
- * @author filoupegase
- *
  */
 const useRefresh = (): [() => void, number] => {
     const [count, setCount] = useState<number>(0);

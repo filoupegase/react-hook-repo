@@ -6,14 +6,11 @@ export interface State {
     y: number;
 }
 
-
 /**
  *
  * @name useWindowScroll
  *
  * Ensures that the component has been mounted.
- *
- * @author filoupegase
  *
  */
 const useWindowScroll = () => {
