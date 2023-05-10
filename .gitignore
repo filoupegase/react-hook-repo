@@ -1,0 +1,31 @@
+# node/npm/yarn
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# typescript
+*.tsbuildinfo
+
+# production
+/build
+
+# here be secrets
+*.env*
+!.env.example
+*.pem
+
+# macOS/iCloud junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.icloud
+.nosync
+idea/
